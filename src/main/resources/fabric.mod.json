@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sticksdebugged",
+  "version": "${version}",
+  "name": "Sticks: Debugged",
+  "description": "Debugging those sticks! Lets you use the debug stick in survival and adds a (hopefully) balanced crafting recipe",
+  "authors": [
+    "Exo"
+  ],
+  "contact": {
+    "website": "https://frogastudios.com",
+    "repo": "https://github.com/froga-studios/SticksDebugged"
+  },
+  "license": "MIT",
+  "icon": "assets/sticksdebugged/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.frogastudios.sticksdebugged.client.SticksDebuggedClient"
+    ],
+    "main": [
+      "com.frogastudios.sticksdebugged.SticksDebugged"
+    ]
+  },
+  "mixins": [
+    "sticksdebugged.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.1",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
