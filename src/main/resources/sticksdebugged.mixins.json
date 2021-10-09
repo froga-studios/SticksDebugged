@@ -4,6 +4,7 @@
   "package": "com.frogastudios.sticksdebugged.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "MixinPlayerEntity"
   ],
   "client": [
   ],
